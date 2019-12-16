@@ -30,5 +30,6 @@
   <!.. ..> that surrounds them.
 -->
   <role rolename="admin-gui"/>
-  <user username="tomcat" password="s3cret" roles="admin-gui"/>
+  <role rolename="manager-gui"/>
+  <user username="tomcat" password="s3cret" roles="admin-gui, manager-gui"/>
 </tomcat-users>
